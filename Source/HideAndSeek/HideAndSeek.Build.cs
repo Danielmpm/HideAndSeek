@@ -17,10 +17,11 @@ public class HideAndSeek : ModuleRules
 		// PrivateDependencyModuleNames.Add("OnlineSubsystem");
 		// if ((Target.Platform == UnrealTargetPlatform.Win32) || (Target.Platform == UnrealTargetPlatform.Win64))
 		// {
-		//		if (UEBuildConfiguration.bCompileSteamOSS == true)
-		//		{
-		//			DynamicallyLoadedModuleNames.Add("OnlineSubsystemSteam");
-		//		}
+				// if (UEBuildConfiguration.bCompileSteamOSS == true)
+				// {
+					// DynamicallyLoadedModuleNames.Add("OnlineSubsystemSteam");
+				// }
 		// }
+		PrivateDependencyModuleNames.Add("OnlineSubsystemNull");
 	}
 }
